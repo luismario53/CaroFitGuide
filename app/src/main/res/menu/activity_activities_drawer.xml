@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nvCereal"
+            android:icon="@drawable/icono_cereales"
+            android:title="Cereales sin Grasa" />
+        <item
+            android:id="@+id/nvProtein"
+            android:icon="@drawable/icono_proteina"
+            android:title="Proteínas" />
+        <item
+            android:id="@+id/nvFruit"
+            android:icon="@drawable/icono_fruta"
+            android:title="Frutas" />
+        <item
+            android:id="@+id/nvFree"
+            android:icon="@drawable/icono_libres"
+            android:title="Otros" />
+        <item
+            android:id="@+id/nvVegetable"
+            android:icon="@drawable/icono_verdura"
+            android:title="Verduras" />
+        <item
+            android:id="@+id/nvOil"
+            android:icon="@drawable/icono_aceite"
+            android:title="Aceites y Grasas" />
+        <item
+            android:id="@+id/nvLegume"
+            android:icon="@drawable/icono_leguminosa"
+            android:title="Leguminosas" />
+    </group>
+
+</menu>
